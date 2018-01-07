@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <title>Notes App</title>
+</head>
+<body>
+   <aside class="notes-list">
+    <header>
+        <h1>Notes<i class="fa fa-plus-circle" aria-hidden="true"></i></h1>
+        <h2>A simple node app for notes</h2>
+        <p id="notes"></p>
+    </header>
+    <ul class="list">
+
+    </ul>
+    </aside>
+    <section class="form">
+        <input type="text" id="noteTitle" placeholder="Title your note" />
+        <div id="noteText" contenteditable="true"></div>
+    </section>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

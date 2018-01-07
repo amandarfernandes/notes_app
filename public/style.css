@@ -1,0 +1,83 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+body {
+    background:#f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.notes-list {
+    color:#c9c9c9;
+}
+
+aside {
+    width:400px;
+}
+
+section .form {
+    width:800px;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+#noteTitle {
+    width:100%;
+    height:60px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #34495e;
+    outline: none;
+    font: 300 28px 'Ubuntu', sans-serif;
+    padding: 10px;
+    color: #34495e;
+}
+
+#noteText {
+    width:100%;
+    outline:none;
+    background:none;
+    border:none;
+    font: 300 18px 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+.border {
+    border: 4px solid #666;
+}
+header {
+    margin:50px 50px 30px;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size:40px;
+    line-height: 50px;
+}
+header i {
+    color:#9DB68C;
+    line-height: 40px;
+    padding:0px 80px  0px;
+}
+header h2 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height:25px;
+    margin-top: -30px;
+}
+
+header p {
+    font-weight: 300;
+    font-size:15px;
+}
+
+
+.list li {
+    list-style: none;
+    padding: 25px;
+    color:#535353;
+}
